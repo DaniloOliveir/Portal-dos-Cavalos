@@ -1,0 +1,143 @@
+/* Estilos Globais */
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: orange;
+    color: #000;
+}
+
+.titulo{
+    display: flex;
+    line-height: 90px;
+    justify-content: center;
+}
+
+/* Header e Navegação */
+header {
+    background-color: #333;
+    padding: 15px;
+}
+
+/* Estilos de navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lista de Links */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+/* Hover dos links */
+nav ul li a:hover {
+    border-bottom: 2px solid #ecf0f1;
+}
+
+/* Botões de autenticação */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+/* Estilo do botão de cadastro */
+.create-account {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* Estilo do botão de login */
+.login {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.introducao{
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    padding-right: 350px;
+    text-indent: 1em;
+}
+
+.imgHome {
+    position: absolute;
+    top: 130%; /* Centraliza verticalmente na tela */
+    left: 50%; /* Centraliza horizontalmente na tela */
+    transform: translate(-50%, -50%); /* Ajusta para manter o centro */
+    border-radius: 35px; /* Mantém as bordas arredondadas */
+    width: 600px; /* Largura fixa */
+    height: auto; /* Mantém a proporção */
+    padding: 30px;
+    
+}
+
+
+/* Raças
+
+
+
+#catalogo {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.raça-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.raça-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #5F9EA0;  Cadet Blue 
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #4682B4; Steel Blue 
+} 
+*/
